@@ -175,6 +175,7 @@ section{
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    margin-top: 1rem;
 }
 .product .product-row .img img:hover{
     transform: scale(1.1);
@@ -193,11 +194,11 @@ section{
 }
 .product .product-row .product-content .orderNow{
     height: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .product .product-row .product-content .orderNow button{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     background-color: var(--black);
     color: var(--white);
     border-radius: .7rem;
@@ -207,7 +208,25 @@ section{
 .product .product-row .product-content .orderNow button:hover{
     font-size: 2rem;
 }
-
+.pro-heading{
+    font-size: 18px;
+    font-weight: bold;
+}
+.new-rate{
+    font-size: 1.5rem;
+}
+.old-rate{
+    text-decoration-line: line-through;
+    /* margin-left: 2px; */
+    font-size: 1.5rem;
+    padding-left: 5px;
+    color: red;
+}
+.fas{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: gold;
+}
 .blogs{
     background: url(images/backGround.png) no-repeat;
     background-size: cover;
@@ -251,17 +270,28 @@ section{
     color: var(--black);
     text-shadow: var(--box-shadow);
 }
-.about{
+.about-img{
     background: url(images/back.png) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    opacity: 0.8;
 }
 .about-us{
    font-size: 20px;
    font-weight: 600;
+   padding: 2rem;
+   /* opacity: 0; */
+   color: rgb(255, 0, 55);
 }
-
+.about-btn{
+    font-size: 1.8rem;
+    background-color:#0d9eec;
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .2rem 0.6rem;
+    cursor: pointer;
+}
 .review .review-row{
     display: flex;
     flex-direction: column ;
